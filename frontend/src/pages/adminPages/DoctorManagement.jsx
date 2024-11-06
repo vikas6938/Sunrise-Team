@@ -139,7 +139,7 @@ const DoctorManagement = () => {
                     <img
                       src={
                         doctor.profileImage
-                          ? `https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${doctor.profileImage}`
+                          ? `https://sunrise-team.onrender.com/${doctor.profileImage}`
                           : userImage
                       }
                       alt="Doctor"

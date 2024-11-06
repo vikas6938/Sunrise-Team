@@ -17,7 +17,7 @@ const DoctorDetailsDrawer = ({ open, onClose, doctor }) => {
           <img
             src={
               doctor?.profileImage
-                ? `https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${doctor.profileImage}`
+                ? `https://sunrise-team.onrender.com/${doctor.profileImage}`
                 : "https://via.placeholder.com/100"
             }
             alt={doctor?.firstName}
@@ -114,7 +114,7 @@ const DoctorDetailsDrawer = ({ open, onClose, doctor }) => {
             <img
               src={
                 doctor?.signatureImage
-                  ? `https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${doctor.signatureImage}`
+                  ? `https://sunrise-team.onrender.com/${doctor.signatureImage}`
                   : "https://via.placeholder.com/100x50"
               }
               alt="Doctor Signature"

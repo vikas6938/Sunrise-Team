@@ -54,7 +54,7 @@ const PatientDetails = () => {
         {/* Patient Image */}
         <div className="flex-shrink-0">
           <img
-            src={`https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${patient.profileImage}`}
+            src={`https://sunrise-team.onrender.com/${patient.profileImage}`}
             alt="Patient"
             className="w-32 h-32 rounded-full object-cover"
           />

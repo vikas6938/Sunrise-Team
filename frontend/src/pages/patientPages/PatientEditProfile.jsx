@@ -58,7 +58,7 @@ const PatientEditProfile = () => {
             address: patient.address,
           });
 
-          setProfileImagePreview(`https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${patient.profileImage}`);
+          setProfileImagePreview(`https://sunrise-team.onrender.com/${patient.profileImage}`);
           setLoading(false);
         }
       } catch (err) {
