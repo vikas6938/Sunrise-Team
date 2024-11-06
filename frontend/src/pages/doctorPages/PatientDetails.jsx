@@ -85,7 +85,7 @@ const PatientDetail = () => {
         <div className="flex justify-between items-start">
           <div className="flex-shrink-0">
             <img
-              src={`http://localhost:8000/${patientData.profileImage}`}
+              src={`https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${patientData.profileImage}`}
               alt="Patient"
               className="w-32 h-32 rounded-full object-cover"
             />

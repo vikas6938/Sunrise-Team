@@ -76,8 +76,8 @@ const EditDoctor = () => {
         });
 
         // Set preview images
-        setProfileImagePreview(`http://localhost:8000/${doctor.profileImage}`);
-        setSignatureImagePreview(`http://localhost:8000/${doctor.signatureImage}`);
+        setProfileImagePreview(`https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${doctor.profileImage}`);
+        setSignatureImagePreview(`https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${doctor.signatureImage}`);
 
         // Conditionally show hospital fields
         setShowHospitalFields(doctor.doctorDetails.workType === "Online" || doctor.doctorDetails.workType === "Both");

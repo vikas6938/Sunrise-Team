@@ -131,7 +131,7 @@ const DoctorEditProfile = ({ onCancel }) => {
                     <img
                         src={
                             formData.profileImage && !(formData.profileImage instanceof File)
-                                ? `http://localhost:8000/${formData.profileImage}`
+                                ? `https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/${formData.profileImage}`
                                 : userImage
                         }
                         alt="Profile"
