@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000/api", 
+  baseURL: "https://sunrise-team-9r4u.vercel.app/?vercelToolbarCode=U7zoauBtAKKmYPq/api", 
 });
 
 api.interceptors.request.use((config) => {
