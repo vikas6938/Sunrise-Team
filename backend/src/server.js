@@ -30,7 +30,7 @@ const PORT = Config.PORT || 5000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-  origin: "http://localhost:3000", // Allow frontend origin
+  origin: "https://sunrise-team.vercel.app", // Allow frontend origin
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
