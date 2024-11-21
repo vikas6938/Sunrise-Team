@@ -12,6 +12,7 @@ import PatientRoutes from "./components/PatientRoutes";
 import { BreadcrumbProvider } from "./context/BreadcrumbContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 
+
 const App = () => {
   const token = localStorage.getItem("token");  
   const authRedirect = token ? <Navigate to="/" replace /> : null;
